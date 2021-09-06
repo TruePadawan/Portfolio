@@ -1,30 +1,32 @@
 body {
-	background-image: url('background.jpg');
-	background-color: lightgrey;
-	color: ghostwhite;
+  background-image: url('background.jpg');
+  background-size: 100% 100%;
+  background-color: lightgrey;
+  
+  color: ghostwhite;
 }
 
 .navbar {
   font-size: 100%;
 }
 .nav-link {
-	font-family: 'Inter', sans-serif;
-	text-decoration: none;
-	font-weight: bold;
-	color: #1db573;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: #1db573;
 }
 
 .nav-link:visited {
-	color: #1db573;
+  color: #1db573;
 }
 
 .nav-link:hover {
-	color: #11f08f;
+  color: #11f08f;
 }
 
 .home-title {
-	text-align: center;
-	padding: 2em 0;
+  text-align: center;
+  padding: 2em 0;
 }
 
 .home-title h1 {
@@ -63,15 +65,15 @@ body {
 }
 
 h1 {
-	font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 h4 {
-	font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One', cursive;
 }
 
 p {
-	font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .container {
@@ -89,12 +91,12 @@ p {
 }
 
 .intro, .about {
-	width: 28rem;
-	margin: 0 auto;
-	font-size: 1.2rem;
-	text-align: justify;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
+  width: 28rem;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  text-align: justify;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 @media only screen and (max-width: 30rem) {
@@ -129,9 +131,10 @@ a {
 
 #contact {
   text-align: center;
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 
 .btn {
+  font-family: 'Poiret One', cursive;
   border-radius: 0px;
 }
